@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  /* NAV BAR STYLING  */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fed7ba;
+    color: black;
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-center img {
+    max-height: 50px;
+  }
+  
+  .navbar-right a {
+    margin-left: 15px;
+  }
+  
+  /* Hamburger menu styles */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    margin-right: 15px;
+  }
+  
+  /* Example Font Awesome icons (make sure to include Font Awesome CSS in your project) */
+  .fa-heart,
+  .fa-shopping-cart,
+  .fa-user {
+    font-size: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: left;
+    height: 100%
+  }
+  
+  .right {
+    background-color: #fed7ba;
+    padding: 20px;
+    width: 80%;
+  }
+  
+  .text-container {
+    text-align: left;
+  }
+  h1 {
+    color: #000;
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  h2.my-h2-class {
+    color: #000;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  h2.my-h2-class > a {
+    text-decoration: none;
+  }
+  
+  .link-container {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+  }
+  .text-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .link-container a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .link-container a:hover {
+    text-decoration: underline;
+  }
+  .title {
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .image-wrapper {
+    display: flex;
+    padding: 60px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px; /* Adjust margin as needed */
+  }
+  
+  .image {
+    width: 150%; /* Adjust image width as needed */
+    margin-bottom: 50px;
+    border-radius: 10px;
+     /* Adjust margin as needed */
+  }
+  .image-left{
+    height: 100%;
+
+    border-radius: 10px;
+  }
+  .image-last {
+    width :100%;
+    height:500px;
+    border-radius: 10px;
+  }
+  /* FOTTER SECTION STYLING */
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    background: #d9d9d9;
+    padding: 20px; /* Increased padding for spacing */
+  }
+  .column-1 {
+    width: 23%; /* Adjusted fixed width for each column */
+    text-align: left;
+    /* padding: 10px;  */
+  }
+  
+  /* Style for the heading in red and text in black */
+  h4 {
+    color: #832729;
+  }
+  
+  p {
+    color: black;
+  }
+  .footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    background-color: #d9d9d9;
+    color: #832729; /* Space between content and bottom */
+  }
+  
+  .follow-icons-1 i {
+    font-size: 30px;
+    margin-right: 10px;
+    color: black;
+  }
+  .social-icons a {
+    margin-right: 10px; /* Space between icons */
+    color: #000; /* Icon color */
+  }
+  .copy-right {
+    background-color: #fed7ba;
+    margin-top: -32px;
+    height: 10vh;
+  }
+  .text {
+    color: #832729;
+    text-align: center;
+    font-size: 2rem;
+  }
