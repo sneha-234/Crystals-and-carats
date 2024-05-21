@@ -339,6 +339,17 @@ body {
   margin-top: 10px;
   color: #333;
 }
+a {
+  color: black; /* Change link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make text bold */
+}
+a:hover {
+  color: darkblue; /* Change color on hover */
+  text-decoration: wavy; /* Add underline on hover */
+}
+
+
 /* VIDEO CAROUSEL */
 
 .video-container {
