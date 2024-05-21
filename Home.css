@@ -413,12 +413,20 @@ h4 {
 p {
   color: black;
 }
+h4 a {
+  color: #832729;
+  text-decoration: none;
+}
 .footer-bottom {
   width: 100%;
   text-align: center;
   margin-top: -20px;
   background-color: #d9d9d9;
   color: #832729; /* Space between content and bottom */
+}
+p a {
+  color: black;
+  text-decoration: none;
 }
 
 .follow-icons-1 i {

@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fed7ba;
+  }
+  
+  body.page-link1 h2.my-h2-class a[href="login$account.html"] {
+    color: red; /* Change color to red */
+  }
+  /* NAVBAR STYLING */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fed7ba;
+    color: black;
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-center img {
+    max-height: 50px;
+  }
+  
+  .navbar-right a {
+    margin-left: 15px;
+  }
+  
+  /* Hamburger menu styles */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    margin-right: 15px;
+  }
+  
+  /* Example Font Awesome icons */
+  .fa-heart,
+  .fa-shopping-cart,
+  .fa-user {
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 20px;
+    text-align: left;
+    min-height: 100vh;
+  }
+  
+  /* Styles for the dropdown */
+  .dropbtn {
+    color: #333; /* Text color */
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Dropdown background color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black; /* Link color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: small;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1; /* Hover background color */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .right {
+    background-color: white;
+    padding: 20px;
+    width: 70%; /* Adjust width to give space to text-container */
+    color: white; /* Text color to contrast with dark background */
+    border-radius: 8px; /* Optional: Add some rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+  }
+
+  .title {
+    background-color: #d27f7f80;
+    padding: 5px;
+    font-family: Poppins;
+ 
+    /* line-height: 60px; */
+    text-align: left;
+  
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-align: left;
+    color: #000;
+  }
+  .right p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    margin-top: -10px;
+  }
+  
+  .text-container {
+    background-color: white; /* Background color for text-container */
+    padding: 20px;
+    flex: 1;
+    margin-right: 20px; /* Space between text-container and right div */
+    border-radius: 8px; /* Optional: Add some rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+  }
+  
+  h1 {
+    color: #832729;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  h2.my-h2-class {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  h2.my-h2-class a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .text-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .span-1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: left;
+  color: #000;
+  
+  }
+  
+  
+  /* FOOTER SECTION STYLING */
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    background: #d9d9d9;
+    padding: 20px;
+  }
+  
+  .column-1 {
+    width: 23%; /* Adjusted fixed width for each column */
+    text-align: left;
+  }
+  
+  h4 {
+    color: #832729;
+  }
+  
+  p {
+    color: black;
+  }
+  
+  h4 a {
+    color: #832729;
+    text-decoration: none;
+  }
+  
+  p a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    width: 100%;
+    text-align: center;
+    background-color: #d9d9d9;
+    color: #832729; /* Space between content and bottom */
+    padding: 10px 0;
+  }
+  
+  .follow-icons-1 i {
+    font-size: 30px;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .social-icons a {
+    margin-right: 10px; /* Space between icons */
+    color: #000; /* Icon color */
+  }
+  
+  .copy-right {
+    background-color: #fed7ba;
+    padding: 10px 0;
+  }
+  
+  .text {
+    color: #832729;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  

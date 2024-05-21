@@ -19,4 +19,5 @@ function toggleMenu() {
   // Change image every intervalTime milliseconds
   setInterval(changeImage, intervalTime);
   
+
    
