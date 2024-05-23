@@ -175,6 +175,9 @@ h2.my-h2-class a {
   text-decoration: none;
   color: #000;
 }
+h2.my-h2-class a :hover{
+  text-decoration: underline
+}
 
 .text-container ul {
   list-style: none;
