@@ -231,6 +231,51 @@
 
     <div class="blank-div"> </div>
 
+      <div id="signupForm" class="popup-form">
+        <div class="form-container">
+            <span class="close" onclick="closeSignupForm()">&times;</span>
+            <div class="content-wrapper">
+                <img src="images/loginimage.jpeg" alt="Image" class="left-image">
+                <form action="submit_signup.php" method="POST" class="signup-form">
+                    <div class="form-header">
+                        <h2><a href="">Sign Up</a></h2>
+                        <div class="separator"></div>
+                        <h2><a href="login.html">Login</a></h2>
+                    </div>
+                    <p class="heading-text">Sign up & get Rs. 500 off* coupon code for your first purchase!</p>
+                    
+                    <input type="text" id="username" name="name" placeholder="Name" required style="font-size: 18px;">
+                    
+                    <div style="display: flex; align-items: center">
+                        <input type="email" id="email" name="email" placeholder="E-mail" required style="font-size: 18px;">
+                        <button type="button" class="button-1" onclick="verifyEmail()" style="margin-left: 10px; font-size:18px;">Verify</button>
+                    </div><br>
+                    
+                    <div style="display: flex; align-items: center">
+                        <input type="text" id="number" name="number" placeholder="PhoneNumber" required style="font-size: 18px;">
+                        <button type="button" class="button-1" onclick="verifyNumber()" style="margin-left: 10px; font-size:18px;">Verify</button>
+                    </div><br>
+                    
+                    <input type="password" id="password" name="password" placeholder="Password" style="font-size: 18px;">
+                    <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" style="font-size: 18px;">
+                    
+                    <div style="margin-top: 10px; font-size: 16px;">
+                        <input type="checkbox" id="disclaimer" name="disclaimer" required>
+                        <label for="disclaimer">I agree to the <a href="terms.html">Terms and Conditions</a></label>
+                    </div>
+                    
+                    <button type="submit" class="button-1" style="margin-top: 10px;">Sign Up</button>
+                    
+                    <div style="text-align: center; margin-top: 10px;">
+                        <p>Already have an account?<a href="login.html" onclick="openPopup()">Login now</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>  
+    
+    
+    
     <!-- FOTTER PART START -->
     <div class="footer-section">
         <div class="column-1">
@@ -283,6 +328,7 @@
 
 
     <script src="home.js"></script>
+    <script src="login.js"></script>
 </body>
 
 </html>

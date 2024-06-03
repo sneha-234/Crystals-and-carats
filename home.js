@@ -18,6 +18,18 @@ function toggleMenu() {
   
   // Change image every intervalTime milliseconds
   setInterval(changeImage, intervalTime);
+
+  function openSignupForm() {
+    document.getElementById("signupForm").style.display = "block";
+}
+
+// Function to close the signup form
+function closeSignupForm() {
+    document.getElementById("signupForm").style.display = "none";
+}
+
+// Function to open the signup form after 3 seconds
+setTimeout(openSignupForm, 5000)
   
 
    

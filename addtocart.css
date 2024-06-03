@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -97,20 +98,21 @@ body {
 }
 
 .buttons {
-    margin-top: 10px;
-    display: flex;
-    gap: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 10%
 }
 
-.btn {
-    display: inline-block;
+.buttons a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
     padding: 10px 20px;
     background-color:maroon;
-    color: white;
-    text-decoration: none;
-    border-radius: 15px;
+    color: #fff;
+    border-radius: 5px;
     text-align: center;
-    margin-bottom: 10%
 }
 
 .btn:hover {
@@ -220,14 +222,68 @@ body {
     color: green;
     margin-right: 10px;
 }
-.delivery-option {
+
+.info-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin-top: 20px;
+    width: 80%;
+    margin: auto;
 }
+.info-line, .info-line-1, .delivery-option, .delivery-by {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}
+.half-line {
+    width: 48%;
+}
+.left {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.right {
+    display: inline-block;
+    background-color: #D27F7F;
+    border-radius: 10px;
+
+}
+.info-line-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:  0;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0;
 
 
+}
+.delivery-option {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.delivery-option input {
+    width: 50%;
+}
+.delivery-by {
+    text-align: left;
+    width: 100%;
+}
+.delivery-option input[type="text"]::placeholder {
+    color: #d9534f; /* Change the color */
+    font-style: italic; /* Optional: make it italic */
+    opacity: 1; /* Make sure it is fully opaque */
+}
+.delivery-option[type="text"].check{
+    color:white;
+    background-color: #D27F7F;
+
+}
+    
 .delivery-option input[type="text"] {
     padding: 5px;
     border: none; /* Remove the box */
@@ -236,42 +292,7 @@ body {
     color: black; /* Text color */
     outline: none; /* Remove outline on focus */
 }
-.delivery-option input[type="text"]::placeholder {
-    color: #d9534f; /* Change the color */
-    font-style: italic; /* Optional: make it italic */
-    opacity: 1; /* Make sure it is fully opaque */
-}
- .delivery-option[type="text"].check{
-    color:white;
-    background-color: #D27F7F;
 
-}
-.delivery-by{
-    margin-top:0;
-}
-
-.half-line {
-    flex: 1;
-    padding: 5px;
-}
-
-.half-line.left {
-    color:black;
-    text-align: left;
-    font-weight: bolder;
-}
-
-.half-line.right {
-    color: gray;
-    font-size: 12px;
-    
-}
-
-.half-line.right i {
-    margin-left: 10px;
-}
-
-    
 
 
   
